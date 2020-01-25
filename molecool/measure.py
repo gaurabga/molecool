@@ -28,6 +28,9 @@ def calculate_distance(r_a, r_b):
     0.1
     """
     # This function calculates the distance between two points given as numpy arrays.
+    if not isinstance(r_a, np.ndarray) or not isinstance(r_b, np.ndarray):
+        raise TypeError("Input are np array not list")
+
     distance_vector = (r_a - r_b)
     distance = np.linalg.norm(distance_vector)
     return distance
