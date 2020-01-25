@@ -21,4 +21,9 @@ This repository is currently under development. To do developmental install, dow
 
 `pip install -e .'
 
-Best wishes
+in the repo (top folder) directory
+
+This package requires the following:
+	- numpy
+	- matplotlib
+
