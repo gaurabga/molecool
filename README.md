@@ -16,3 +16,9 @@ Copyright (c) 2020, gaurabga
  
 Project based on the 
 [Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.1.
+
+This repository is currently under development. To do developmental install, download this repository and type:
+
+`pip install -e .'
+
+Best wishes
