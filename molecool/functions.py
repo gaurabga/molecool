@@ -4,7 +4,7 @@ A python pkg for analysis xyz file, for Molssi Workshop
 
 Handles the primary functions
 """
-hello guys!
+"""hello guys!"""
 
 def canvas(with_attribution=True):
     """
