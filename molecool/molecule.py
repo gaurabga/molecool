@@ -1,6 +1,34 @@
 """ molecule.py
 
 """        
+import numpy as np
+from .atom_data import atomic_weights
+
+def calculate_molecular_mass(symbols):
+   """Calculate the mass of a molecule.
+   
+   Parameters
+   ----------
+   symbols : list
+       A list of elements.
+   
+   Returns
+   -------
+   mass : float
+       The mass of the molecule
+   """
+   pass
+
+#    mass = 0
+#    for atom in symbols:
+#        mass += atomic_weights[atom]
+#        return mass
+#
+#    total_mass = calculate_molecular_mass(symbols)
+#
+#    mass_array = np.zeros([len(symbols)])
+#
+
 def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
     
     # Find the bonds in a molecule (set of coordinates) based on distance criteria.
